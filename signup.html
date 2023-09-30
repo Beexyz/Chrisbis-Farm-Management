@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+    
+   <nav>
+       <ul>
+   <center>
+    <strong>
+  <li><a href="home.html">HOME</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a href="cwwcommunity.html">COMMUNITY</a></li>
+  <li><a href="upcomingtask.html">TASKS</a></li>
+  <li><a href="contact.html">CONTACT</a> </li>
+  <li><a href="login.html">Log in</a></li>
+   <li class="signup-button"><a href="signup.html">Sign up</a></li>
+    </strong>
+   </center>
+       </ul> 
+   </nav>  
+</header>
+<center> 
+
+    <div class="login-container">
+       <h1 class="CTA">
+    CHRISBIS FARM MANAGEMENT
+       </h1>
+       
+        <div class="image-container">
+            <img src="https://cdn.openpr.com/V/1/V104215096_g.jpg">
+        </div>
+
+        <div class="login-form">
+        <h1>Create an account</h1>
+Please note that email verification is required <br> for signup. Your email will only be used to verify <br>
+your identity for security purposes.
+
+
+            <button class="google-signin-button">
+    <img src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png" alt="Google Icon">
+    Sign up with   Google
+            </button>
+            
+            <button class="apple-signin-button">
+    <img src="https://cdn-icons-png.flaticon.com/512/152/152752.png" alt="Apple Icon">
+    Sign up with Apple
+            </button>
+
+    <div class="line-container">
+        <div class="line"></div>
+        <div class="or">or</div>
+        <div class="line"></div>
+    </div>
+            <br><br><br>
+        <form action="submit.php" method="POST">
+            <label for="username"></label>
+            <input type="text" id="username" name="username" required placeholder="Email address">
+            <br><br>
+            <label for="password"></label>
+            <div class="password-input">
+            <input type="password" id="password" name="password" required placeholder="Password">
+            <span class="toggle-password" id="toggle-password">
+            <i class="eye-icon"></i>
+            </span>
+            </div>
+            <div class="options">
+                
+                <label>
+                 For a secure password use 8 characters
+                </label>
+               
+            </div>
+            <script src="script.js"></script>
+            <br><br><br>
+            <button type="submit">Sign up</button>
+            <br>
+            <div>
+                
+                <label>
+                   Already have an account?
+                </label>
+                <a class="loginb" href="login.html">login</a>
+            </div>
+
+        </form>
+        </div>
+    </div>
+</center>
+    </body>
+    </html>

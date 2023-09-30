@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Farm Expense Tracker</title>
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <ul>
+        <center>
+            <strong>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="cropstatus.html">CROP STATUS</a></li>
+            <li><a href="upcomingtask.html">TASKS</a></li>
+            <li><a href="contact.html">CONTACT</a> </li>
+            <li><a href="login.html">Log in</a></li>
+            <li class="signup-button"><a href="signup.html">Sign up</a></li>
+            </strong>
+        </center>
+            </ul>
+        </nav>  
+    </header>
+    <header>
+        <h1>Farm Expense Tracker</h1>
+    </header>
+   
+    
+    <div class="expense-form">
+        <label for="expense-type">Expense Type:</label>
+        <input type="text" id="expense-type" placeholder="Enter expense type">
+        
+        <label for="expense-amount">Expense Amount (₦):</label>
+        <input type="number" id="expense-amount" placeholder="Enter expense amount">
+        
+        <label for="income-amount">Income Amount (₦):</label>
+        <input type="number" id="income-amount" placeholder="Enter income amount">   
+        <button id="add-entry">Add Entry</button>
+    </div>
+    
+    <div class="summary">
+        <h2>Financial Summary</h2>
+        <p>Total Expense: ₦<span id="total-expense">0.00</span></p>
+        <p>Total Income: ₦<span id="total-income">0.00</span></p>
+        <p>Total Profit: ₦<span id="total-profit">0.00</span></p>
+    </div>
+    
+    <div class="entry-list">
+        <h2>Entry List</h2>
+        <ul id="entries"></ul>
+    </div>
+    
+    <script src="home.js"></script>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer>
+        <p>
+            &copy; 2023 Chrisbis Farm Management. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
+

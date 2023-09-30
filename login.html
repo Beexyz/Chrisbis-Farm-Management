@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+      
+   <nav>
+       <ul>
+   <center>
+    <strong>
+  <li><a href="home.html">HOME</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a href="cropstatus.html">CROP STATUS</a></li>
+  <li><a href="upcomingtask.html">TASKS</a></li>
+  <li><a href="contact.html">CONTACT</a> </li>
+  <li><a href="login.html">Log in</a></li>
+   <li class="signup-button"><a href="signup.html">Sign up</a></li>
+    </strong>
+   </center>
+       </ul> 
+   </nav>  
+</header>
+<center> 
+
+    <div class="login-container">
+       <h1 class="CTA">
+CHRISBIS FARM MANAGEMENT
+       </h1>
+       
+        <div class="image-container">
+            <img src="https://media.istockphoto.com/id/538889138/photo/african-woman-laughing.jpg?s=612x612&w=0&k=20&c=OJTMbnqP8x9v-Ly2KyXD_MGWMoEbJDcdcTX0Lc2dock=">
+        </div>
+
+        <div class="login-form">
+        <h1>Welcome back!</h1>
+Explore our farm management and accounting platform. Login now and<br> discover the power
+of technology.
+
+
+            <button class="google-signin-button">
+    <img src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png" alt="Google Icon">
+    Login with   Google
+            </button>
+            
+            <button class="apple-signin-button">
+    <img src="https://cdn-icons-png.flaticon.com/512/152/152752.png" alt="Apple Icon">
+    Login with Apple
+            </button>
+
+    <div class="line-container">
+        <div class="line"></div>
+        <div class="or">or</div>
+        <div class="line"></div>
+    </div>
+            
+
+            <br><br><br>
+        <form action="login.php" method="POST">
+            <label for="username"></label>
+            <input type="text" id="username" name="username" required placeholder="Username">
+            <br><br>
+            <label for="password"></label>
+            <div class="password-input">
+            <input type="password" id="password" name="password" required placeholder="Password">
+            <span class="toggle-password" id="toggle-password">
+            <i class="eye-icon"></i>
+            </span>
+            </div>
+            <div class="options">
+                
+                <label>
+                    <input type="checkbox" name="keep-logged-in"> Keep me logged in
+                </label>
+                <a href="forgotpassword.html">Forgot Password?</a>
+            </div>
+            <script src="script.js"></script>
+            <br><br><br>
+            <button type="submit">Log In</button>
+            <br>
+            <div>
+                
+                <label>
+                    <name="signup-button"> Don't have an account?
+                </label>
+                <a class="signupb" href="signup.html">signup</a>
+            </div>
+
+        </form>
+        </div>
+    </div>
+</center>
+    </body>
+    </html>

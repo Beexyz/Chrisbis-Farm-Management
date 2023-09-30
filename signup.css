@@ -1,0 +1,198 @@
+/* CSS for the header section */
+header {
+    background-color:#ffffff ;
+    padding: 20px 20px; /* Padding for top and bottom */
+}
+
+.signup-button a {
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.CTA{
+    position: absolute;
+    top: 18%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+.google-signin-button {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #1f075f;
+    padding: 8px ;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 73%;
+    margin-top: 55px;
+    margin-left: 75px;
+    justify-content: center;
+}
+
+.google-signin-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.apple-signin-button {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #1f075f;
+    padding: 8px ;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 73%;
+    margin-top: 13px;
+    margin-left: 75px;
+    justify-content: center;
+}
+
+.apple-signin-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    width: 450px;
+    margin-left: 75px;
+}
+
+.line {
+    flex-grow: 1;
+    border-top: 1px solid #000;
+    
+}
+
+.or {
+   
+    margin: 0 10px;
+}
+
+.login-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 300px;
+    margin-left: 60px;
+    margin-top: 100px;
+
+}
+
+.image-container img {
+    max-width: 185%;
+    height: 100%;
+}
+
+.login-form {
+    flex: 2;
+}
+
+.login-form h1 {
+font-size: px;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+     margin-left: 75px;
+}
+
+.password-input {
+    position: relative;
+    width: 100%;
+}
+
+.password-input input {
+    width: 412px;
+    padding: 10px;
+    margin-top: -7px;
+    padding-right: 30px;
+}
+
+.eye-icon::before {
+    content: "\f06e";
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #6e7379;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 27%;
+    right: 60px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+.options label {
+    
+    margin-left: -125px;
+}
+
+.options a {
+    margin-left: 170px;
+    margin-right: -180px;
+    text-decoration: none;
+}
+
+button[type="submit"] {
+    background-color: #002594;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 73%;
+    margin-left: 75px;
+   
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+   
+
+.loginb {
+    text-decoration: none;
+   }

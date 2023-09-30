@@ -1,0 +1,147 @@
+/* CSS for the header section */
+header {
+    background-color:#ffffff; 
+    padding: 20px 20px; /* Padding for top and bottom */
+    text-align: center; 
+}
+
+.signup-button a {
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.expense-form {
+    margin-top: 20px;
+}
+
+label, input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.summary {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+ 
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.delete-entry {
+    background-color: #ff4f4f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+h2 {
+    font-size: 30px; 
+    color: #0e0d0d; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    
+}
+
+.contact-container {
+    background-color:  rgb(230, 235, 235);
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #888;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical; /* Allows vertical resizing of the textarea */
+}
+
+button[type="submit"] {
+    background-color: #002594;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+   
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+
